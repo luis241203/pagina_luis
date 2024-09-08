@@ -18,6 +18,16 @@ body {
     overflow: hidden;
     align-items: center;
 }
+.img_container
+{
+    text-align: center;
+}
+.imagen_esp8266
+{
+    max-width: 30%;
+    max-height: 30%;
+    text-align: center;
+}
 .mis_proyectos
 {
     margin-left: 20px;
@@ -60,8 +70,8 @@ nav ul li a {
 }
 
 main {
-    padding-bottom: 10px;
     background: #fff;
+    padding: 50px 300px;
 }
 
 .post {
@@ -69,6 +79,11 @@ main {
     padding: 20px;
     border: 1px solid #ddd;
     background: #f9f9f9;
+}
+
+.post p
+{
+    text-align: justify;
 }
 
 .post h2 {

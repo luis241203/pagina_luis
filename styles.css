@@ -3,12 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color:rgb(0, 0, 0);
-    background-color: #c5bbbb;
-}
+
 .titulo
 {
     background-color: rgb(30, 54, 98);
@@ -32,25 +27,28 @@ body {
 {
     max-height: 50px;
 }
+.info
+{
+    background-color: #ffffff;
+    padding: 50px 600px;
+}
 .misdatos{
     text-align: center;
     font-size: large;
-    background: linear-gradient(black,rgb(71, 71, 71));
-    color: white;
-    margin: 0% 35%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 50px 0px;
-    border-radius: 10px;
+    /*background: linear-gradient(black,rgb(71, 71, 71));*/
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    color: rgb(0, 0, 0);
+    padding: 50px 50px;
+    margin: 0 100px;
 }
 .mi_foto1{
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 200px;
+    border:2px solid black;
 }
 .mi_info
 {
     text-align: justify;
-    padding: 0 5%;
     font-size: large;
     font-weight: 500;
 }
